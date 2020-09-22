@@ -21,7 +21,7 @@ Try it out at: http://graphql.org/swapi-graphql
 Install dependencies with
 
 ```sh
-yarn
+npm install
 ```
 
 ## SWAPI Wrapper
@@ -29,7 +29,7 @@ yarn
 The SWAPI wrapper is in `./swapi`. It can be tested with:
 
 ```sh
-yarn test
+npm run test
 ```
 
 ## Local Server
@@ -37,8 +37,8 @@ yarn test
 A local express server is in `./server`. It can be run with:
 
 ```sh
-yarn build # Only if you changed something
-yarn start
+npm run build # Only if you changed something
+npm start
 ```
 
 A GraphiQL instance will be opened at http://localhost:8080/ (or similar; the actual port number will be printed to the console) to explore the API.
